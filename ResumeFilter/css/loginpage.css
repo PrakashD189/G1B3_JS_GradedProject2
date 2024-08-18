@@ -1,0 +1,50 @@
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.inner-container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: url("../resources/images/bg-7-full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Modal Content/Box */
+.container-content {
+    background-color: #f9f5fa;
+    margin: 7% auto;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 0.5rem;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
